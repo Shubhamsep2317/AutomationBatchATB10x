@@ -24,7 +24,7 @@ public class Lab002Operators {
             System.out.println("c>f");
         }
 
-        System.out.println(!(c>=d||d<f)); // Logical operators
+        System.out.println(!(c>=d||d<f)); // Relational operators and Logical operators
         System.out.println(c!=d);//Relational operators
         System.out.println(c==f);//Relational operators
         System.out.println(c<=f&&d>c); //Relational operators and Logical operators
