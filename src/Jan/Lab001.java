@@ -6,7 +6,7 @@ public class Lab001 {
     public static void main(String[] args) {
         int count=0;
 
-        String name="aeiou";
+        String name="Shubham";
         String STR1= name.toLowerCase();
 
         char[] vowels={'a','e','i','o','u'};
@@ -25,7 +25,6 @@ public class Lab001 {
             }
 
         }
-
         System.out.println(count);
     }
     }
