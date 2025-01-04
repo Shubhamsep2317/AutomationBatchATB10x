@@ -1,4 +1,4 @@
-package Jan;
+package Jan.Operators;
 
 public class Lab002Operators {
     public static void main(String[] args) {
