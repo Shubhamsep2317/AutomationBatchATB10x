@@ -25,10 +25,10 @@ public class TernaryOperator {
         System.out.println(finalResult);
 
         int a =100;
-        int b=26;
+        int b=101;
         float c=24.9999999999f;
 
-        String comparisonResult= (a>b && a>c) ? "A is greater": (b>c && b>a)? "B is greater": "C is greater";
+        String comparisonResult= (a>b && a>c) ? "A is greater": (b>=c)? "B is greater": "C is greater";
         System.out.println(comparisonResult);
 
     }
