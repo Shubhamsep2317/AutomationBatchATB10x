@@ -20,7 +20,10 @@ public class Task_Triangle {
             triangleSides[i] = scan.nextInt();
         }
         while (triangleSides.length == 3) {
-            if (triangleSides[0] == triangleSides[1] && triangleSides[1] == triangleSides[2]) {
+            if(triangleSides[0]<=0||triangleSides[1]<=0||triangleSides[2]<=0){
+                System.out.println("Sides should be of a positive value. Please enter positive values");// Edge case scenario
+            }
+            else if (triangleSides[0] == triangleSides[1] && triangleSides[1] == triangleSides[2]) {
                 System.out.println("Triangle is equilateral triangle");
                 break;
             } else if (triangleSides[0] != triangleSides[2] && triangleSides[1] != triangleSides[0]) {
