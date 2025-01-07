@@ -19,7 +19,7 @@ public class Task_Triangle {
         for (int i = 0; i < s; i++) {
             triangleSides[i] = scan.nextInt();
         }
-        while (triangleSides.length <= 3) {
+        while (triangleSides.length == 3) {
             if (triangleSides[0] == triangleSides[1] && triangleSides[1] == triangleSides[2]) {
                 System.out.println("Triangle is equilateral triangle");
                 break;
