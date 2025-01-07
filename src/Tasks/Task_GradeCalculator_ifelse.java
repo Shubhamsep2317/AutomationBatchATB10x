@@ -14,24 +14,26 @@ public class Task_GradeCalculator_ifelse {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter your score\n");
         int score=sc.nextInt();
+        char grade='F';
         if(score<0 || score>100){
             System.out.println("You are GOD");
         }
         else if (score>=90 && score<=100){
-            System.out.println("Your grade is "+" "+'A');
+            grade='A';
         }
         else if(score>=80 && score<=89){
-            System.out.println("Your grade is "+" "+'B');
+            grade='B';
         }
         else if(score>=70 && score<=79){
-            System.out.println("Your grade is "+" "+'C');
+            grade='C';
         }
         else if(score>=60 && score<=69){
-            System.out.println("Your grade is "+" "+'D');
+            grade='D';
         }
         else{
-            System.out.println("Your grade is "+" "+'F');
+            grade='F';
         }
+        System.out.println("Your grade is---->>>>"+grade);
         sc.close();
 
     }
