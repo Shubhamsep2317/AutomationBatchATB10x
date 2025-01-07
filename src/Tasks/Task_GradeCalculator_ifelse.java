@@ -16,7 +16,7 @@ public class Task_GradeCalculator_ifelse {
         int score=sc.nextInt();
         char grade='F';
         if(score<0 || score>100){
-            System.out.println("You are GOD");
+            System.out.println("You are GOD");// Edge case scenario
         }
         else if (score>=90 && score<=100){
             grade='A';
