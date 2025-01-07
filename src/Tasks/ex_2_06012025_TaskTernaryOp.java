@@ -1,6 +1,6 @@
-package Jan.TakingInputs;
+package Tasks;
 
-public class ex_2_06012025 {
+public class ex_2_06012025_TaskTernaryOp {
     public static void main(String[] args) {
 
        int a=Integer.parseInt(args[0]);

@@ -1,8 +1,8 @@
-package Jan;
+package Tasks;
 // Program to find vowels in a String
 import java.util.Arrays;
 
-public class Lab001 {
+public class Task_Vowels {
     public static void main(String[] args) {
         int count=0;
 
