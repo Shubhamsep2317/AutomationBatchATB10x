@@ -1,4 +1,4 @@
-package Tasks;
+package Jan.ifConditions;
 
 import java.util.Scanner;
 
