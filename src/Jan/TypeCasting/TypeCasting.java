@@ -19,6 +19,7 @@ public class TypeCasting {
         System.out.println(A1+A2);// Concatenation of characters-->> addition of ASCII values in output
         System.out.println(A1);
 
+
         String s =new String("Shubham");
         System.out.println(s);// new operator used to create object in heap memory
 
