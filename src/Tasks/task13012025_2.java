@@ -19,12 +19,12 @@ public class task13012025_2 {
             for (int j=0;j<countVowels.length;j++){
                 if(vowels[i]==countVowels[j]){
                     countVow++;
+                    System.out.println(countVowels[j]);
                 }
                 else{
                     countConsonant=countVowels.length-countVow;
                 }
             }
-
         }
         System.out.println("The number of vowels--->>>" +countVow);
         System.out.println("The number of consonants---->>>"+ countConsonant);
