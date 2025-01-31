@@ -13,7 +13,6 @@ public class task31012025_17 {
         age = sn.nextInt();
         if((age>0 && age >=18) || age<=80) {
             System.out.println("The age of the person is ----->>>>"+age);
-
         }
         else{
             System.out.println("Please enter a valid positive age or age must be 18 years");
