@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Jan;
 
 public class task_2_06012025_TaskTernaryOp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Jan;
 // Program to find vowels in a String
 import java.util.Arrays;
 

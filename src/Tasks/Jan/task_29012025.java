@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Jan;
 import java.util.Scanner;
 // Program to check input character is vowel or not
 public class task_29012025 {

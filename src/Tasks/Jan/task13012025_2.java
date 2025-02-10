@@ -1,6 +1,5 @@
-package Tasks;
+package Tasks.Jan;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class task13012025_2 {

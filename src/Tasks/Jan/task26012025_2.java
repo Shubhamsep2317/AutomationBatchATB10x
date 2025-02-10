@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Jan;
 
 import java.util.Scanner;
 // Program to Find Fibonacci series upto given input numbers
