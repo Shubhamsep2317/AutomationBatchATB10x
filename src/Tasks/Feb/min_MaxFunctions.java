@@ -42,6 +42,12 @@ public class min_MaxFunctions {
         System.out.println(maxValue);
         System.out.println(minValue);
 
+    // 2nd Largest value in the array
+        for(int a=0;a<arr.length;a++){
+            System.out.println("The second largest value in array is ------>>>>"+ arr[arr.length-2]);
+            break;
+        }
+
 
     }
 }
