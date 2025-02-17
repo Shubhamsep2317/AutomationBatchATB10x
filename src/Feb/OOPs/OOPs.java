@@ -1,4 +1,4 @@
-package Feb;
+package Feb.OOPs;
 
 public class OOPs {
     public static void main(String[] args) {
