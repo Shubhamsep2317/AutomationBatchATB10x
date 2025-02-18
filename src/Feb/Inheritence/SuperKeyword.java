@@ -38,7 +38,7 @@ class Mother {
     }
         int Money(int needMoney){
             this.moneyAvailable=moneyAvailable-needMoney;
-            System.out.println("Need of Rupees"+needMoney);
+            System.out.println("Need of Rupees----->>>>"+needMoney);
             return this.moneyAvailable;
     }
 }
