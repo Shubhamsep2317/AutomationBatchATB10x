@@ -4,7 +4,7 @@ public class SuperKeyword {
     public static void main(String[] args) {
 
         Mother m=new Mother(2000);
-        m.Money(200);
+        m.Money(500);
 
         Daughter d=new Daughter();
         System.out.println(d.Father(200));
@@ -12,16 +12,12 @@ public class SuperKeyword {
         m.Food(false);
         d.Food(true);
 
-
         System.out.println(d.Brother(10));
         System.out.println(d.Father(500));
-
-
 
     }
 
 }
-
 
 class Mother {
     int moneyAvailable;
@@ -41,11 +37,14 @@ class Mother {
         }
     }
         void Money(int needMoney){
-            this.moneyAvailable=moneyAvailable-needMoney;
-            System.out.println(this.moneyAvailable);
+            System.out.println("Need of Rupees"+needMoney);
     }
 }
 class Daughter extends Mother implements i1{
+
+    Daughter(){
+        super(2000);
+    }
 
     @Override
     public int Brother(int needMoney) {
