@@ -25,5 +25,8 @@ package Feb.GenricClass;
 
             Test<Double> test2=new Test<>(2.586);
             System.out.println(test2.getObject());
+
+            Test<Character> test3=new Test<>('a');
+            System.out.println(test3.getObject());
         }
     }
