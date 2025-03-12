@@ -2,6 +2,7 @@ package Tasks.March;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class MostFrequentEntryListUsingForloop {
@@ -10,7 +11,7 @@ public class MostFrequentEntryListUsingForloop {
 
     public static void main(String[] args) {
 
-        List<Integer> list = new ArrayList <>(Arrays.asList(1,1,2,2,2,3,3,3,3,5,5,5,5,5,6,6,7,7,7,7,7,7));
+        List<Integer> list = new ArrayList <>(Arrays.asList(1,1,2,2,2,7,3,3,3,5,5,5,5,5,6,6,7,7,7,7,7));
 
         int mostFrequentElementItem=mostFrequentElementItem(list);
 
@@ -19,6 +20,8 @@ public class MostFrequentEntryListUsingForloop {
     }
 
     public static int mostFrequentElementItem(List<Integer> list){
+
+        Collections.sort(list);
 
         if(list.isEmpty()){
             throw new IllegalArgumentException("List is empty");
