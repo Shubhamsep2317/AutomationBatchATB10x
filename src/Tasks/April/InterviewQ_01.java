@@ -2,7 +2,7 @@ package Tasks.April;
 // WAP to add the digits in a given string "automation 658engineer" --->> o/p--->
 // "automation 19engineer"
 
-public class InterviewQ {
+public class InterviewQ_01 {
 
     public static void main(String[] shubham) {
 
