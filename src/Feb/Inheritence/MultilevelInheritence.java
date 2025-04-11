@@ -7,6 +7,9 @@ public class MultilevelInheritence {
         s.farmHouse();
 
        Father f=new Son();
+
+       // incorrect reference
+       //Son s1=new Father();
        f.property();
     }
 }
