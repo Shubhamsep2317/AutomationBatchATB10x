@@ -38,7 +38,6 @@ public class MostFrequentEntryListUsingForloop {
             else{
                 currentCount=1;
             }
-
             if(currentCount>maxCount){
                 maxCount=currentCount;
                 mostFrequentElement= list.get(i);
