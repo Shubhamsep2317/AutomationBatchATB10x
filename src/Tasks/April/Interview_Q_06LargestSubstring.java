@@ -1,7 +1,5 @@
 package Tasks.April;
 
-import java.sql.SQLOutput;
-
 public class Interview_Q_06LargestSubstring {
 
     public static void main(String[] args) {
