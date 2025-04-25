@@ -1,15 +1,15 @@
 package Feb.Collections;
 
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Set_LinkedHashSet {
     public static void main(String[] args) {
 
         // Duplicates are not allowed
-        // Order is maintained in HashSet
-        Set<String> hs=new HashSet<>();
+        // Order is maintained in LinkedHashSet
+        Set<String> hs=new LinkedHashSet();
         hs.add("123");
         hs.add(null);
         hs.add("Shubham");
