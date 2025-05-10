@@ -1,5 +1,5 @@
 package Tasks.May;
-
+// WAP to eliminate given values from an array
 public class InterviewQ_10_May2025 {
     public static void main(String[] args) {
         int arr[]= {1, 5, 2, 8, 1, 9, 1};
