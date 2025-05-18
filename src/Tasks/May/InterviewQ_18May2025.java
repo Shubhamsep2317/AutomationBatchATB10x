@@ -20,7 +20,7 @@ public class InterviewQ_18May2025 {
         }
 
         for (Map.Entry<String, Integer> item : hm.entrySet()) {
-            System.out.println("The string " + item.getKey() + " has occured " + item.getValue() + " times");
+            System.out.println("The String " + item.getKey() + " has occured " + item.getValue() + " times");
         }
 
     }
