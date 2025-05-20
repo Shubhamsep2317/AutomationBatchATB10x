@@ -10,7 +10,7 @@ public class InterviewQ20May2025 {
     public static void main(String[] args) {
 
 
-        int[] input = {20, 40, 50, 40, 50, 20, 30, 30, 50, 20, 40, 40, 20};
+        int[] input = {20, 40, 50, 40, 50, 20, 30, 30, 50, 20, 40, 40, 20,10};
 
         returnOddNumber(input);
 
