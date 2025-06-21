@@ -1,5 +1,5 @@
 package Tasks.June;
-
+// WAP to get output= S.K. Sharma
 public class Task21_06_2025 {
 
     public static void main(String[] args) {
