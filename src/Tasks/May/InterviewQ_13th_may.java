@@ -2,7 +2,7 @@ package Tasks.May;
 // WAP to reverse a input integer array of elements
 import java.util.Arrays;
 
-public class InterviewQ_13th_may {
+public class    InterviewQ_13th_may {
 
     public static void main(String[] args) {
 

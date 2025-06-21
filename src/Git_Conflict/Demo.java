@@ -6,6 +6,6 @@ public class Demo {
         return a+b;
     }
     public static void main(String[] args) {
-        System.out.println("Test 123fsfgdrsgsdt");
+        System.out.println("Test ");
     }
 }
