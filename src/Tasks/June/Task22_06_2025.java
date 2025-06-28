@@ -22,7 +22,7 @@ public class Task22_06_2025 {
         for (Map.Entry<Character,Integer> item:hm.entrySet()){
             if (item.getValue()>1){
                 for (char ch:input.toCharArray()){
-                    if (hm.containsKey(item.getKey())){
+                    if (hm.containsKey(ch)){
                         input=input.replaceAll(item.getKey().toString(),item.getValue().toString());
                     }
                 }
