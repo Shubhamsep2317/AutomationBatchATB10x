@@ -3,6 +3,8 @@ package Tasks.June;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+
+// WAP to make sure that input string has unique characters
 public class Interview30_06_2025 {
     public static void main(String[] args) {
         String input="jfmdhcvcv";
