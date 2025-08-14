@@ -1,5 +1,6 @@
 package Tasks.August;
 
+// WAP to remove duplicate characters and create a new string with no duplicate characters
 public class Task14_08_2025 {
 
     public static void main(String[] args) {
