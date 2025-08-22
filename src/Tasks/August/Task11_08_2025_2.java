@@ -7,17 +7,24 @@ public class Task11_08_2025_2 {
             String input = "abcXYabc";
             String result = "";
 
+            boolean foundMatch= false;
+
             for (int i = input.length() / 2; i >= 1; i--) {
                 String prefix = input.substring(0, i);
                 String suffix = input.substring(input.length() - i);
                 if (prefix.equals(suffix)) {
                     result = prefix;
+                    foundMatch=true;
                     break;
                 }
             }
 
-            System.out.println(result);
-
+            if (!foundMatch){
+                System.out.println("No matching prefix/ suffix found");
+            }
+            else {
+                System.out.println(result);
+            }
 
         }
     }

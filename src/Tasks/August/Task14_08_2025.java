@@ -8,7 +8,7 @@ public class Task14_08_2025 {
         String input = "aaabbbcccdddabcd";
         StringBuffer result = new StringBuffer();
 
-        char previousChar = 12;
+        char previousChar = 0;
 
         for (char currentChar : input.toCharArray()) {
             if (previousChar != currentChar) {
