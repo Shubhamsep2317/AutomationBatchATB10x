@@ -1,5 +1,5 @@
 package Tasks.August;
-
+// Write a java program to add only print the numbers whose sum is odd after adding
 import java.util.*;
 
 public class Task28_08_2025 {
