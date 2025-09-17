@@ -7,24 +7,24 @@ public class Task_17_09_2025 {
     public static void main(String[] args) {
 
 
-        String [] str={"ab","bc","ade","nm"};
+        String[] str = {"ab", "bc", "ade", "nm"};
 
-        String input="abefbcdeadenmaf";
+        String input = "abefbcdeadenmaf";
 
-        boolean found= true;
+        boolean found = true;
 
-        while(found){
-            found=false;
+        while (found) {
+            found = false;
 
-            for (String s:str){
-                if(input.contains(s)){
-                    input=input.replaceAll(s,"");
-                    found=true;
+            for (String s : str) {
+                if (input.contains(s)) {
+                    input = input.replaceAll(s, "");
+                    found = true;
                 }
             }
         }
 
-        System.out.print(" "+input);
+        System.out.print(" " + input);
 
 
     }
