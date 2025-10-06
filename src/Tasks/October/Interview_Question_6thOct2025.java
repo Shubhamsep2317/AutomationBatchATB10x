@@ -1,5 +1,5 @@
 package Tasks.October;
-
+// WAP to reverse only the words of a given String
 public class Interview_Question_6thOct2025 {
     public static void main(String[] args) {
 
